@@ -13,13 +13,15 @@
         <p>this is a piece about  <i>talking too much</i></i></p>
    
         <body>
+		 <video id="video" style="width:100%; height:100%" autoplay [muted]="'muted'" loop>
+  <source src="IMAGES/right side GOOD.mov" type="video/mov">
+</video>
             <video width="1280" height="960" autoplay loop muted>
                 <source  src="IMAGES/right side GOOD.mov" type="video/mov">
               </video>
-            <video width="1280" height="960" autoplay loop muted>
-                <source  src="IMAGES/left detail not great.mov" type="video/mov">
-              </video>
-            
+            <video id="video" style="width:100%; height:100%" autoplay [muted]="'muted'" loop>
+  <source src="IMAGES/left detail not great.mov" type="video/mov">
+</video>
         </body>
     </html>
     
