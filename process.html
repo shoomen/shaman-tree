@@ -16,14 +16,26 @@
 	<img src="IMAGES/igloo.JPG"
 width="1500">
 
- <video width="1280" height="960" autoplay loop muted>
-            <source  src="right side GOOD.mov" type="video/mov">
-          </video>
-<video width="1280" height="960" autoplay loop muted>
-            <source  src="left detail not great.mov" type="video/mov">
-          </video>
-	
-        
-            
+<meta charset="UTF-8">
+		<title>Javascript Image Slider</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<div class="slider">
+			<div class="img-box">
+				<img src="stop motion/1.JPG" class="slider-img">
+				<img src="stop motion/2.JPG" class="slider-img">
+				<img src="stop motion/4.JPG" class="slider-img">
+
+			</div>
+
+			<button class="btn" onclick="prev()">Prev</button>
+			<button class="btn" onclick="next()">Next</button>
+		</div>
+
+		<script src="js/main.js"></script>
+
+
         </body>
     </html>
