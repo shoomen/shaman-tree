@@ -1,195 +1,71 @@
-body {
-	color: rgb(245, 245, 220); 
-}
-body {
-background:rgb(313, 139, 139)
-}
-body {
-	font-family:Arial, Helvetica, sans-serif ;
-}
-body {
-	text-align: center;
-}
-.slider{
-	margin:50px auto;
-	width:50%;
-}
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href="style.css" rel="stylesheet" type="text/css"
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>shaman tree</title>
+	<h1>shaman tree</h1>
+	<link rel="stylesheet" type="text/css" href"stylesheet.css" />
+    <h2>this is a piece about keeping the story straight</h2>
+    <div class="container">
+      <div class="centered"><I>this is a piece about stealing and building foundations in something weak</i></i></p></div>
+
+
+
+      
+    
+      <title>progression</title>
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+
+		<div class="split-slideshow">
+  <div class="slideshow">
+    <div class="slider">
+      <div class="item">
+        <img src="IMAGES/good main images.JPG"
+            width="1500">
+      </div>
+      <div class="item">
+        <img src="IMAGES/top left.JPG"
+            width="1000">
+      </div>
  
-.img-box img{
-	width:40%;
-}
+            <div class="item">
+              <img src="IMAGES/bottom left.JPG" 
+                  width="1000">
+                  <div class="item">
+                    <img src="IMAGES/caveat text.png" 
+                        width="1000">
+      </div>
+      <img src="IMAGES/top right.JPG"
+      width="1000">
+      <div class="item">
+        <img src="IMAGES/bottom right.JPG"
+            width="1000">
+      <div class="item">
+           
+      </div>
+    </div>
+  </div>
+  <div class="slideshow-text">
+    <div class="item">Corroded Memory</div>
+    <div class="item">Communication</div>
+    <div class="item">Erosion and Overwriting</div>
+    <div class="item">Breaking in Sections</div>
+    <div class="item">Scroll down↓</div>
+  </div>
+</div>
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.centered {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.btn{
-	border:none;
-	outline:none;
-	background:#888;
-	padding:10px 30px;
-	font-size: 20px;
-	color:#ddd;
-	cursor: pointer;
-	margin:10px auto;			 
-}
-
-.btn:hover{
-	background: #111;
-}
-body,
-html {
-  height: 100%;
-  background: #110101;
-  font-family: 'Roboto', sans-serif;
-}
-
-.slideshow {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  
-  .slider {
-    width: 100vw;
-    height: 100vw;
-    z-index: 2;
-    
-    * {
-      outline: none;
-    }
-    
-    .item {
-      height: 100vh;
-      width: 100vw;
-      position: relative;
-      overflow: hidden;
-      border: none;
-      
-      .text {
-        display: none;
-      }
-      
-      img {
-        min-width: 101%;
-        min-height: 101%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
-  }
-  
-  .slick-dots {
-    position: fixed;
-    z-index: 100;
-    width: 40px;
-    height: auto;
-    bottom: auto;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    left: auto;
-    color: #fff;
-    display: block;
-    
-    li {
-      display: block;
-      width: 100%;
-      height: auto;
-      
-      & button {
-        position: relative;
-        width: 20px;
-        height: 15px;
-        text-align: center;
-        
-        &:before {
-          content: '';
-          background: #fff;
-          color: #fff;
-          height: 2px;
-          width: 20px;
-          border-radius: 0;
-          position: absolute;
-          top: 50%;
-          right: 0;
-          left: auto;
-          transform: translateY(-50%);
-          transition: all .3s ease-in-out;
-          opacity: 0.6;
-        }
-      }
-      
-      &.slick-active {
-        button {
-          &:before {
-            width: 40px;
-            opacity: 1;
-          }
-        }
-      }
-    }
-  }
-  
-  &.slideshow-right {
-    left: 0;
-    z-index: 1;
-    width: 50vw;
-    pointer-events: none;
-    
-    .slider {
-      left: 0;
-      position: absolute;
-    }
-  }
-}
-
-.slideshow-text {
-  position: fixed;
-  top: 30%;
-  left: 40%;
-  transform: translate(-40%, -60%);
-  z-index: 100;
-  font-size: 30px;
-  width: 100vw;
-  text-align: left;
-  color: #fff;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 100;
-  pointer-events: none;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  line-height: 1;
-  
-  @media (max-width: 767px) {
-    font-size: 40px;
-  }
-  
-}
+<strong>The top left side of this piece was built around this mixture of a dry wet synapse that separates the piece into sections, the left side with the headstone and the man with a tongue came from a place of vaguely remembered concepts and memories, the man being Volgin concept art from metal gear I used to look through a lot, with a backdrop of black squares throughout. This was mostly a visual allegory for blocking out memories and the “holes” that can cause it ones recollection of real and manufactured memories, as well as a visual motif from my past works which utilize red squares in reference to the Silent Hill Puzzle. The text under the headstone reads ‘your friends will tell your story as their own when you die’ which is a quote from an art piece by Sean Kinney (@reallysean4real) which has stuck with me for a long time, as I’ve always noticed an honor people take in telling other peoples stories for them and the joy it brings them, as well as how we as people all live through memories and tales after we’re gone, legacy. </strong>
+<strong>The top right section of this piece is where I started, initially starting the piece off with doing studies on multiple tumors and blending their silhouettes to form a larger series of beings in which I could have other things spawn from. Vague human parts like the chest of mouths which is from an old tv show as well as the eyes forming within the flesh of the tumors, this section is also mostly supposed to be focused on the Vulture, its significance tying to the scavenging of visual and conceptual ideas to bring together to create a ‘full stomach’ while also is me trying to deal with my own ideas of being a vulture socially and idea wise, behind this vulture my contrasting point of all these beautiful budding flowers, although some of them are infact budding poppy’s which is a light reference to escapism and the use of mental and thought based opiates which enable delusions. he stretched out flesh implied stretched across to the flowers shows the middle ground between my methods of talking, spitting a vocal opiate that softens and inspires people, but also the self deprecating and self loathing and venom that can also leave my mouth. The map layered under the OPEN SECRET text is a first floor mansion map from memory from Resident Evil 1, a game thats reliance on maps and inventory management has always paralleled the skills we walk into every day with, the splatter inside it initially being an exercise in pooling ink, Open Secret is the title and concept for this piece of others holding internal information that isn’t necessarily hidden but isn’t kept quiet either.
+</strong>
+<strong>The bottom left of this section also features concept art of the boss from metal gear, something I drew in relation to my having always had a very strong female figure in my life I always resonated with that a lot. The bottom section next to the books features a reference to scene from the movie Kairo (Pulse) in which a very slow walking ghosts approaches a man in a seemingly nonhuman form of moving, mostly playing into the idea of lack or loss of humanity in the context of ones psyche, the thought process of “turning yourself into a monster.” The hooded ghost is a reference to the ghost statues in Vezio, Italy and their open faces always felt like a kind of an absence of psyche and person. The two books next to him are one of the sparing uses of text in the entire piece. The man scribbling above him is a reference to Random Access by Nam June Paik (1963), a zine that reminded me of all the time ive spent writing my name and drawing on walls over the past 15 years. There’s something much more calculated about it. </strong>
+<strong>This bottom right section was compartmentalized into a view into a memory, playing soccer and being in tune with ones body as well as the conflict and competitive nature of it, the sky and the area are a place I’m fairly familiar with. The tension of these situations and that can come from this connection to ones body is something I tried to play with in the sewn in nature of the frame itself. The bottom three boxes are an actual puzzle. 
+</strong>
+		<script src="js/main.js"></script>
 
 
-.the-most {
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
-  width: 50vw;
-  max-width: 200px;
-  padding: 10px;
-  
-  img {
-    max-width: 100%;
-  }
-}
+        </body>
+    </html>
